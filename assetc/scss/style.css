@@ -4,7 +4,7 @@ body {
 
     font-size: 20px;
     color: rgb(246, 251, 252);
-    line-height: 1.6;   
+    line-height: 1.6;
 }
 
 
@@ -31,7 +31,7 @@ left: 0px;
 top: 0px;
 
 background: url("../imagest/intro.jpg.jpg");
-    
+
 }
 
 .intro2{
@@ -168,7 +168,7 @@ color: #FFFFFF;
 
 .intro_title2{
     position: absolute;
-width: 972px;
+width: 800px;
 height: 70px;
 left: 100px;
 top: 580px;
@@ -319,7 +319,7 @@ background: url("../imagest/car.png.png");
    text-transform: uppercase;
    font-family: Raleway;
 
-   
+
 
 }
 
