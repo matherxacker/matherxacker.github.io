@@ -1,0 +1,788 @@
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+
+    font-size: 20px;
+    color: rgb(246, 251, 252);
+    line-height: 1.6;   
+}
+
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+/* intro */
+.intro {
+   position: absolute;
+width: 1899px;
+height: 1280.12px;
+left: 0px;
+top: 0px;
+
+background: url("../imagest/intro.jpg.jpg");
+    
+}
+
+.intro2{
+    position: absolute;
+width: 398px;
+height: 84px;
+left: 127px;
+top: 763px;
+
+   text-transform: uppercase;
+   font-family: Raleway;
+
+
+background: #EFC429;
+border-radius: 38px;
+}
+
+.intro3{
+    position: absolute;
+width: 82px;
+height: 84px;
+left: 561px;
+top: 766px;
+
+background: url(../imagest/play.png.png);
+
+}
+
+.intro4{
+    position: absolute;
+width: 24px;
+height: 24px;
+left: 127px;
+top: 883px;
+
+background: url(../imagest/call.png.png);
+
+}
+
+.intro5{
+    position: absolute;
+width: 24px;
+height: 24px;
+left: 127px;
+top: 915px;
+
+background: url(../imagest/map.png);
+
+}
+
+.intro6{
+    position: absolute;
+width: 24px;
+height: 24px;
+left: 127px;
+top: 949px;
+
+background: url(../imagest/time.png);
+
+}
+
+.nav_link5{
+    position: absolute;
+width: 24px;
+height: 24px;
+left: 127px;
+top: 1100px;
+
+background: url(../imagest/vk.png);
+
+}
+
+.nav_link6{
+ position: absolute;
+width: 24px;
+height: 24px;
+left: 185px;
+top: 1100px;
+
+
+background: url(../imagest/facebook.png);
+
+
+}
+.nav_link7{
+   position: absolute;
+width: 24px;
+height: 24px;
+left: 245px;
+top: 1102px;
+
+background: url(../imagest/youtube.png);
+}
+
+.nav_link8{
+   position: absolute;
+width: 24px;
+height: 24px;
+left: 307px;
+top: 1102px;
+background: url(../imagest/instagram.png);
+}
+
+
+.intro10{
+    position: absolute;
+width: 100px;
+height: 100px;
+left: 903px;
+top: 1167px;
+
+background: url(../imagest/down.png);
+
+}
+
+.intro_title {
+    position: absolute;
+width: 820px;
+height: 196px;
+left: 70px;
+top: 333px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 84px;
+line-height: 99px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+}
+
+.intro_title2{
+    position: absolute;
+width: 972px;
+height: 70px;
+left: 100px;
+top: 580px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+
+color: #FFFFFF;
+
+}
+
+.intro_title3{
+    position: absolute;
+width: 386px;
+height: 58px;
+left: 133px;
+top: 760px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 31px;
+line-height: 43px;
+text-align: center;
+text-decoration: none;
+
+color: #000000;
+
+}
+
+.intro_title4{
+    position: absolute;
+width: 193px;
+height: 79px;
+left: 649px;
+top: 771px;
+text-decoration: none;
+
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+
+color: #FFFFFF;
+
+}
+
+.intro_title5{
+    position: absolute;
+width: 972px;
+height: 24px;
+left: 161px;
+top: 865px;
+
+font-family: PT Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 20px;
+
+color: #FFFFFF;
+
+}
+
+.intro_title6{
+    position: absolute;
+width: 972px;
+height: 24px;
+left: 161px;
+top: 895px;
+
+font-family: PT Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 20px;
+
+color: #FFFFFF;
+
+}
+
+.intro_title7{
+    position: absolute;
+width: 972px;
+height: 23px;
+left: 161px;
+top: 922px;
+
+font-family: PT Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 20px;
+
+color: #FFFFFF;
+
+}
+
+.intro_title8{
+    position: absolute;
+width: 246px;
+height: 21px;
+left: 127px;
+top: 1026px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+color: #FFFFFF;
+
+}
+
+/* Шапка */
+.header{
+    width: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+
+
+.header_logo {
+    position: absolute;
+width: 122px;
+height: 121px;
+left: 120px;
+top: 43px;
+
+background: url("../imagest/car.png.png");
+}
+
+/* Навигация */
+
+.nav{
+   font-size: 30px;
+   text-transform: uppercase;
+   font-family: Raleway;
+
+   
+
+}
+
+/*О нас */
+
+.nav_link1{
+   position: absolute;
+width: 200px;
+height: 33px;
+left: 890px;
+top: 87px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+text-align: center;
+text-decoration: none;
+
+
+
+color: #FFFFFF;
+
+}
+.nav_link1:after{
+content: "";
+display: block;
+width: 100%;
+height: 3px;
+display: none;
+
+
+background-color: #FFFFFF;
+
+position: absolute;
+top: 100%;
+left: 0;
+z-index: 1;
+
+
+}
+.nav_link1:hover{
+    color: #FFFFFF;
+}
+.nav_link1:hover::after{
+    display: block;
+}
+
+/* Услуги */
+.nav_link2{
+position: absolute;
+width: 118px;
+height: 33px;
+left: 1115px;
+top: 87px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+text-align: center;
+text-decoration: none;
+
+
+color: #FFFFFF;
+}
+.nav_link2:after{
+content: "";
+display: block;
+width: 119%;
+height: 3px;
+display: none;
+
+
+background-color: #FFFFFF;
+
+position: absolute;
+top: 100%;
+left: 0;
+z-index: 1;
+
+
+}
+.nav_link2:hover{
+    color: #FFFFFF;
+}
+.nav_link2:hover::after{
+    display: block;
+}
+
+
+/*Шиномонтаж */
+.nav_link3{
+position: absolute;
+width: 280px;
+height: 33px;
+left: 1300px;
+top: 87px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+text-decoration: none;
+
+color: #FFFFFF;
+}
+
+.nav_link3:after{
+content: "";
+display: block;
+width: 70%;
+height: 3px;
+display: none;
+
+
+background-color: #FFFFFF;
+
+position: absolute;
+top: 100%;
+left: 0;
+z-index: 1;
+
+
+}
+.nav_link3:hover{
+    color: #FFFFFF;
+}
+.nav_link3:hover::after{
+    display: block;
+}
+
+
+/* Галерея */
+.nav_link4{
+    position: absolute;
+width: 240px;
+height: 33px;
+left: 1600px;
+top: 87px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+text-decoration: none;
+
+color: #FFFFFF;
+
+}
+
+.nav_link4:after{
+content: "";
+display: block;
+width: 60%;
+height: 3px;
+display: none;
+
+
+background-color: #FFFFFF;
+
+position: absolute;
+top: 100%;
+left: 0;
+z-index: 1;
+
+
+}
+.nav_link4:hover{
+    color: #FFFFFF;
+}
+.nav_link4:hover::after{
+    display: block;
+}
+
+/* Нижняя секция */
+.section{
+    padding: 1000px 0;
+
+}
+.section_header{
+    margin-bottom: 50px;
+}
+
+.section_suptitle{
+    position: absolute;
+width: 649px;
+height: 66px;
+left: 1080px;
+top: 1382px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 53px;
+line-height: 62px;
+text-align: center;
+
+color: #000000;
+
+}
+
+.section_text1{
+    position: absolute;
+width: 369px;
+height: 35px;
+left: 1215px;
+top: 1455px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+
+}
+
+.section_text2{
+    position: absolute;
+width: 529px;
+height: 35px;
+left: 1215px;
+top: 1505px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+
+}
+
+.section_text3{
+    position: absolute;
+width: 529px;
+height: 35px;
+left: 1215px;
+top: 1553px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+
+}
+
+.section_text4{
+    position: absolute;
+width: 529px;
+height: 35px;
+left: 1215px;
+top: 1601px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+}
+
+.section_text5{
+  position: absolute;
+width: 501px;
+height: 35px;
+left: 1215px;
+top: 1658px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+}
+
+.section_text6{
+  position: absolute;
+width: 529px;
+height: 35px;
+left: 1215px;
+top: 1706px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+}
+
+.section_text7{
+    position: absolute;
+width: 598px;
+height: 35px;
+left: 1215px;
+top: 1756px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+
+}
+
+.section_text8{
+    position: absolute;
+width: 598px;
+height: 35px;
+left: 1215px;
+top: 1803px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+}
+
+.section_text9{
+    position: absolute;
+width: 598px;
+height: 35px;
+left: 1215px;
+top: 1850px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+
+
+}
+
+
+.lolipop{
+    position: absolute;
+width: 830px;
+height: 516px;
+left: 240px;
+top: 1382px;
+
+background: url(../imagest/pic.png);
+border-radius: 38px;
+}
+
+.Check_mark1{
+    position: absolute;
+width: 50px;
+height: 50px;
+left: 1151px;
+top: 1448px;
+
+background: url(../imagest/akar-icons_check.png);
+
+}
+
+.Check_mark2{
+    position: absolute;
+width: 50px;
+height: 50px;
+left: 1151px;
+top: 1498px;
+
+background: url(../imagest/akar-icons_check.png);
+
+}
+
+.Check_mark3{
+    position: absolute;
+width: 50px;
+height: 50px;
+left: 1151px;
+top: 1548px;
+
+background: url(../imagest/akar-icons_check.png);
+
+}
+
+.Check_mark4{
+    position: absolute;
+width: 50px;
+height: 50px;
+left: 1151px;
+top: 1598px;
+
+background: url(../imagest/akar-icons_check.png);
+
+}
+
+.Check_mark5{
+    position: absolute;
+width: 50px;
+height: 50px;
+left: 1151px;
+top: 1648px;
+
+background: url(../imagest/akar-icons_check.png);
+
+}
+
+.Check_mark6{
+    position: absolute;
+width: 50px;
+height: 50px;
+left: 1151px;
+top: 1698px;
+
+background: url(../imagest/akar-icons_check.png);
+
+}
+
+.Check_mark7{
+    position: absolute;
+width: 50px;
+height: 50px;
+left: 1151px;
+top: 1748px;
+
+background: url(../imagest/akar-icons_check.png);
+
+}
+
+.Check_mark8{
+    position: absolute;
+width: 50px;
+height: 50px;
+left: 1151px;
+top: 1798px;
+
+background: url(../imagest/akar-icons_check.png);
+
+}
+
+.Check_mark9{
+    position: absolute;
+width: 50px;
+height: 50px;
+left: 1151px;
+top: 1848px;
+
+background: url(../imagest/akar-icons_check.png);
+
+}
